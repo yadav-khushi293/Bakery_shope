@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #e5e7eb;
+  background: white;
+  color: var(--background-color);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+
+.btn:active {
+  transform: translateY(1px);
+}
+
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  inset: 0 auto 0 0;
+  /* top right bottom left */
+  width: min(100vw, var(--sidebar-width));
+  background: var(--background-color);
+  color: var(--nav-text);
+  transform: translateX(-100%);
+  transition: transform 200ms ease;
+  z-index: 40;
+  /* above page content, below overlay if needed */
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 0.5rem;
+}
+
+.sidebar header {
+  position: static;
+  background: transparent;
+  border: 0;
+  padding: 0;
+  color: var(--sidebar-fg);
+}
+
+.sidebar a {
+  color: inherit;
+  text-decoration: none;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.sidebar a:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+/* Backdrop overlay that blurs the rest of the page */
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: var(--overlay-bg);
+  backdrop-filter: blur(var(--blur-amount));
+  -webkit-backdrop-filter: blur(var(--blur-amount));
+  opacity: 0;
+  pointer-events: none;
+  /* click-through when hidden */
+  transition: opacity 200ms ease;
+  z-index: 30;
+  /* sits under the sidebar */
+}
+
+/* Open state */
+.sidebar-open .sidebar {
+  transform: translateX(0);
+}
+
+.sidebar-open .overlay {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Prevent body scroll when sidebar is open */
+.no-scroll {
+  overflow: hidden;
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .sidebar,
+  .overlay,
+  .btn {
+    transition: none;
+  }
+}
