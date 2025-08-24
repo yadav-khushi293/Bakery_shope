@@ -16,12 +16,8 @@
   --nav-text: hsl(120 75% 50%/1);
   --background-color: #000;
 }
-/*pagianton disable*/
 
-.btns:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
-}
+
 
 * {
   margin: 0;
@@ -462,4 +458,136 @@
   background: green;
 }
 
+
+.btns:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
 /* pagination end */
+
+
+/*scroll arrow*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+.to-top {
+  background:black;
+  position: fixed;
+  bottom: 16px;
+  right:32px;
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:32px;
+  color: hsl(120 75% 50%/1);
+  text-decoration: none;
+  opacity:0;
+  pointer-events: none;
+  transition: all .4s;
+}
+
+.to-top.active {
+  bottom:32px;
+  pointer-events: auto;
+  opacity:1;
+}
+.to-top::after {
+      content: "Back to Top";
+      position: absolute;
+      bottom: 60px;
+      right: -8px;
+      background: #333;
+      color: #fff;
+      padding: 4px 8px;
+      font-size: 12px;
+      border-radius: 4px;
+      opacity: 0;
+      transform: translateY(5px);
+      transition: all 0.3s ease;
+      white-space: nowrap;
+    }
+
+    .to-top:hover::after {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /*Custom scrollbar*/
+    ::-webkit-scrollbar{
+      width: 12px;
+    }
+    ::-webkit-scrollbar-track{
+      background-color:hsl(120 75% 50%/1);
+      
+    }
+    ::-webkit-scrollbar-thumb{
+      background-color:black;
+      border-radius: 10px;
+
+    }
+ 
+  /* Day-night-mode*/
+  
+     body {
+        background: #f8f8f8;  
+        color: #000;
+        transition: background 0.3s, color 0.3s;
+      }
+
+      body.dark {
+        background: #333;  
+        color: #fff;
+      }
+
+      .btn {
+        position: absolute;
+        top: 140px;
+        left: 60px;
+        width: 50px;
+        height: 50px;
+        background: #fff; 
+        color: #000;
+        font-size: 1.5em;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1),
+          5px 5px 30px rgba(0, 0, 0, 0.05),
+          inset -2px -2px 5px rgba(0, 0, 0, 0.1),
+          inset 2px 2px 5px rgba(0, 0, 0, 0.05);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        border-radius: 49% !important;
+        border: transparent !important;
+        transition: background 0.3s, color 0.3s;
+      }
+
+      body.dark .btn {
+        background: #000; 
+        color: #fff;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25),
+          5px 5px 30px rgba(0, 0, 0, 0.25),
+          inset -2px -2px 5px rgba(0, 0, 0, 0.25),
+          inset 2px 2px 5px rgba(0, 0, 0, 0.25);
+      }
+
+      .btn strong {
+        display: none;
+      }
+
+      .btn strong:nth-child(2) {
+        display: block;
+      }
+
+      body.dark .btn strong:nth-child(1) {
+        display: block;
+      }
+
+      body.dark .btn strong:nth-child(2) {
+        display: none;
+      }

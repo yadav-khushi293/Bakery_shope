@@ -122,7 +122,7 @@ const searchFunc = async () => {
 };
 
 
-//pagination Code
+//pagination code
 let pages = 1;
 let pageLimits = 10;
 
@@ -202,3 +202,24 @@ decrementBtn.addEventListener("click", () => {
     paginationFetch(pageLimits, pages);
   }
 });
+
+
+//Scroll-Arrow-code
+  const toTop = document.querySelector(".to-top");
+
+   window.addEventListener("scroll", () => {
+  if (window.pageYOffset > 100) 
+  {
+    toTop.classList.add("active");
+  } else 
+  {
+    toTop.classList.remove("active");
+}
+});
+
+//Day-Night-mode-code
+  let body = document.querySelector("body");
+      let btn = document.querySelector(".btn");
+      btn.onclick = function () {
+        body.classList.toggle("light");
+  };
