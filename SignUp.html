@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+        <link rel="stylesheet" href="./CSS/index.css">
+        <link rel="shortcut icon" href="../utils/footer_Logo.svg"
+            type="image/x-icon">
+        <link rel="stylesheet" href="./CSS/Sidebar.css">
+
+    </head>
+
+    <body id="signup_body">
+        <header class="header"></header>
+
+        <div class="login-box">
+            <h2>Create Account</h2>
+
+            <form onsubmit="loginForm(event)">
+                <div class="form-group">
+                    <label for="userEmail">Username</label>
+                    <input type="text" id="userEmail"
+                        placeholder="Enter username" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="userPassword">Password</label>
+                    <input type="password" id="userPassword"
+                        placeholder="Enter password" required>
+                </div>
+
+                <button type="submit" class="login-btn">signup</button>
+                <p> Already have an account? <a
+                        href="./Login.html">Login</a></p>
+
+            </form>
+        </div>
+        <footer id="footers"></footer>
+
+    </body>
+    <script defer src="./JS/SignUp.js"></script>
+    <script type="module">
+
+    import { Navbar, NavStyle, Footers, goHome, loginFunc, cartFunc, SideBar, typePlaceholder } from './JS/import_export.js'
+
+    document.querySelector('.header').innerHTML = Navbar() + SideBar();
+    document.querySelector('body').addEventListener('load', typePlaceholder());
+
+    let styleTag = document.createElement("style");
+    styleTag.textContent = NavStyle();
+    document.head.append(styleTag);
+
+    document.querySelector('#footers').innerHTML = Footers();
+
+    document.querySelector('.homePage').addEventListener('click', () => {
+        goHome();
+    })
+    document.querySelector('.loginFunc').addEventListener('click', () => {
+        loginFunc();
+    });
+    document.querySelector('.cartFunc').addEventListener('click', () => {
+        cartFunc();
+    });
+    // side bar code start 
+
+    const body = document.body;
+    const sidebar = document.getElementById('sidebar');
+    const overlay = document.getElementById('overlay');
+    const openBtn = document.getElementById('openSidebar');
+    const closeBtn = document.getElementById('closeSidebar');
+
+
+
+
+    function openSidebar() {
+        body.classList.add('sidebar-open', 'no-scroll');
+        sidebar.setAttribute('aria-hidden', 'false');
+        openBtn.setAttribute('aria-expanded', 'true');
+        // Move focus to the close button for accessibility
+        closeBtn.focus();
+    }
+
+    function closeSidebar() {
+        body.classList.remove('sidebar-open', 'no-scroll');
+        sidebar.setAttribute('aria-hidden', 'true');
+        openBtn.setAttribute('aria-expanded', 'false');
+        // Return focus to the trigger button
+        openBtn.focus();
+    }
+
+
+
+    openBtn.addEventListener('click', openSidebar);
+    closeBtn.addEventListener('click', closeSidebar);
+    overlay.addEventListener('click', closeSidebar);
+
+    // Close with Escape
+    window.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && body.classList.contains('sidebar-open')) {
+            closeSidebar();
+        }
+    });
+
+    // Optional: close if viewport resized very wide (e.g., moving to desktop layout in your project)
+    window.addEventListener('resize', () => {
+        if (window.innerWidth > 1280 && body.classList.contains('sidebar-open')) {
+            closeSidebar();
+        }
+    });
+    // side bar code end
+</script>
+
+</html>

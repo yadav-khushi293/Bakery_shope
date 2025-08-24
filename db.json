@@ -1,0 +1,1420 @@
+{
+  "users": [
+    {
+      "email": "hetukp12@gmail.com",
+      "password": "$2a$10$1neNQ/xR0CbS.ZXA9JpNSuJg8bN7pAkFxr.0ZykQY7uj/3N9DGL0e",
+      "id": 1
+    },
+    {
+      "email": "khushi@123gmail.com",
+      "password": "$2a$10$Wr6DCOLTsYvBKq.LiAUdI.7jMO6G4kyPMxZDiM8OZgb5Nf4vDiCVK",
+      "id": 2
+    },
+    {
+      "email": "khushiyadav@133gmail.com",
+      "password": "$2a$10$cIuV4EAfra6LDyiz35FfxO5T5F6WYaARQRTbAkXo.lFaxLLMi1LxC",
+      "id": 3
+    }
+  ],
+  "ageValid": [
+    {
+      "id": 1,
+      "title": "15-20 Age",
+      "gender": "Male",
+      "image": "https://raw.githubusercontent.com/hetuk2005/Fake_Store/0c2ae3396f4e4e1039af40c293de2d6350a5d44e/Utils/15-20%20Age.svg"
+    },
+    {
+      "id": 2,
+      "title": "15-20 Age",
+      "gender": "Female",
+      "image": "https://raw.githubusercontent.com/hetuk2005/Fake_Store/0c2ae3396f4e4e1039af40c293de2d6350a5d44e/Utils/15-20%20Age(Women).svg"
+    },
+    {
+      "id": 3,
+      "title": "20-30 Age",
+      "gender": "Male",
+      "image": "https://raw.githubusercontent.com/hetuk2005/Fake_Store/0c2ae3396f4e4e1039af40c293de2d6350a5d44e/Utils/20-30%20Age.svg"
+    },
+    {
+      "id": 4,
+      "title": "20-30 Age",
+      "gender": "Female",
+      "image": "https://raw.githubusercontent.com/hetuk2005/Fake_Store/0c2ae3396f4e4e1039af40c293de2d6350a5d44e/Utils/20-30%20Age(Women).svg"
+    },
+    {
+      "id": 5,
+      "title": "30-40 Age",
+      "gender": "Male",
+      "image": "https://raw.githubusercontent.com/hetuk2005/Fake_Store/0c2ae3396f4e4e1039af40c293de2d6350a5d44e/Utils/30-40%20Age.svg"
+    },
+    {
+      "id": 6,
+      "title": "30-40 Age",
+      "gender": "Female",
+      "image": "https://raw.githubusercontent.com/hetuk2005/Fake_Store/0c2ae3396f4e4e1039af40c293de2d6350a5d44e/Utils/30-40%20Age(Women).svg"
+    },
+    {
+      "id": 7,
+      "title": "40-50 Age",
+      "gender": "Male",
+      "image": "https://raw.githubusercontent.com/hetuk2005/Fake_Store/0c2ae3396f4e4e1039af40c293de2d6350a5d44e/Utils/40-50%20Age.svg"
+    },
+    {
+      "id": 8,
+      "title": "40-50 Age",
+      "gender": "Female",
+      "image": "https://raw.githubusercontent.com/hetuk2005/Fake_Store/0c2ae3396f4e4e1039af40c293de2d6350a5d44e/Utils/40-50%20Age(Women).svg"
+    },
+    {
+      "id": 9,
+      "title": "50-60 Age",
+      "gender": "Male",
+      "image": "https://raw.githubusercontent.com/hetuk2005/Fake_Store/0c2ae3396f4e4e1039af40c293de2d6350a5d44e/Utils/50-60%20Age.svg"
+    },
+    {
+      "id": 10,
+      "title": "50-60 Age",
+      "gender": "Female",
+      "image": "https://raw.githubusercontent.com/hetuk2005/Fake_Store/0c2ae3396f4e4e1039af40c293de2d6350a5d44e/Utils/50-60%20Age(Women).svg"
+    }
+  ],
+  "cart": [
+    {
+      "id": 1,
+      "title": "Macaron Pink",
+      "price": 100,
+      "description": "A balanced diet is a cookie in each hand.",
+      "category": "Cookies",
+      "image": "https://cdn.pixabay.com/photo/2019/11/03/11/25/macaron-4598410_1280.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      },
+      "quantity": 2,
+      "count": 1
+    },
+    {
+      "id": 12,
+      "title": "Rose Strawberry Cake",
+      "price": 250,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quam.",
+      "category": "Cake",
+      "image": "https://cdn.pixabay.com/photo/2017/05/23/22/33/birthday-2338813_1280.jpg",
+      "rating": {
+        "rate": 4.1,
+        "count": 1
+      },
+      "quantity": 1,
+      "count": 1
+    },
+    {
+      "id": 3,
+      "title": "Christmas, Cookie",
+      "price": 100,
+      "description": "A balanced diet is a cookie in each hand.",
+      "category": "Cookies",
+      "image": "https://cdn.pixabay.com/photo/2021/12/09/14/22/christmas-6858261_1280.jpg",
+      "rating": {
+        "rate": 4.7,
+        "count": 500
+      },
+      "quantity": 4,
+      "count": 1
+    },
+    {
+      "id": 5,
+      "title": "Cookie Christmas",
+      "price": 100,
+      "description": "A balanced diet is a cookie in each hand.",
+      "category": "Cookies",
+      "image": "https://cdn.pixabay.com/photo/2016/01/07/10/23/cookie-1125527_1280.jpg",
+      "rating": {
+        "rate": 4.6,
+        "count": 400
+      },
+      "quantity": 1,
+      "count": 1
+    },
+    {
+      "id": 6,
+      "title": "Chocolate Bake ",
+      "price": 168,
+      "description": "A balanced diet is a cookie in each hand.",
+      "category": "Cookies",
+      "image": "https://cdn.pixabay.com/photo/2019/12/15/17/06/chocolate-4697591_1280.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 70
+      },
+      "quantity": 1,
+      "count": 1
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Macaron Pink",
+      "price": 100,
+      "description": "A balanced diet is a cookie in each hand.",
+      "category": "Cookies",
+      "image": "https://cdn.pixabay.com/photo/2019/11/03/11/25/macaron-4598410_1280.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      },
+      "quantity": 3
+    },
+    {
+      "id": 2,
+      "title": "Gingerbread, Cookies ",
+      "price": 200,
+      "description": "A balanced diet is a cookie in each hand.",
+      "category": "Cookies",
+      "image": "https://cdn.pixabay.com/photo/2019/12/06/08/24/gingerbread-4676903_1280.jpg",
+      "rating": {
+        "rate": 4.1,
+        "count": 259
+      },
+      "quantity": 4
+    },
+    {
+      "id": 3,
+      "title": "Christmas, Cookie",
+      "price": 100,
+      "description": "A balanced diet is a cookie in each hand.",
+      "category": "Cookies",
+      "image": "https://cdn.pixabay.com/photo/2021/12/09/14/22/christmas-6858261_1280.jpg",
+      "rating": {
+        "rate": 4.7,
+        "count": 500
+      },
+      "quantity": 2
+    },
+    {
+      "id": 4,
+      "title": "Sweet Food,",
+      "price": 150,
+      "description": "A balanced diet is a cookie in each hand.",
+      "category": "Cookies",
+      "image": "https://cdn.pixabay.com/photo/2018/05/21/20/55/sweet-3419470_1280.jpg",
+      "rating": {
+        "rate": 2.1,
+        "count": 430
+      },
+      "quantity": 2
+    },
+    {
+      "id": 5,
+      "title": "Cookie Christmas",
+      "price": 100,
+      "description": "A balanced diet is a cookie in each hand.",
+      "category": "Cookies",
+      "image": "https://cdn.pixabay.com/photo/2016/01/07/10/23/cookie-1125527_1280.jpg",
+      "rating": {
+        "rate": 4.6,
+        "count": 400
+      },
+      "quantity": 2
+    },
+    {
+      "id": 6,
+      "title": "Chocolate Bake ",
+      "price": 168,
+      "description": "A balanced diet is a cookie in each hand.",
+      "category": "Cookies",
+      "image": "https://cdn.pixabay.com/photo/2019/12/15/17/06/chocolate-4697591_1280.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 70
+      }
+    },
+    {
+      "id": 7,
+      "title": " Gingerbread ",
+      "price": 100,
+      "description": "A balanced diet is a cookie in each hand.",
+      "category": "Cookies",
+      "image": "https://cdn.pixabay.com/photo/2019/01/06/21/54/cookies-3918049_1280.jpg",
+      "rating": {
+        "rate": 3,
+        "count": 400
+      }
+    },
+    {
+      "id": 8,
+      "title": "Pastries Cookies",
+      "price": 170,
+      "description": "A balanced diet is a cookie in each hand.",
+      "category": "Cookies",
+      "image": "https://cdn.pixabay.com/photo/2023/10/18/19/30/pastries-8324971_1280.jpg",
+      "rating": {
+        "rate": 1.9,
+        "count": 100
+      }
+    },
+    {
+      "id": 9,
+      "title": "Biscuit ",
+      "price": 100,
+      "description": "A balanced diet is a cookie in each hand.",
+      "category": "Cookies",
+      "image": "https://cdn.pixabay.com/photo/2018/03/11/09/08/cookie-3216243_1280.jpg",
+      "rating": {
+        "rate": 3.3,
+        "count": 203
+      }
+    },
+    {
+      "id": 10,
+      "title": "Cardamom snow hugs",
+      "price": 109,
+      "description": "A balanced diet is a cookie in each hand.",
+      "category": "Cookies",
+      "image": "https://cdn.pixabay.com/photo/2017/12/19/10/11/cardamom-snow-hugs-3027724_1280.jpg",
+      "rating": {
+        "rate": 2.9,
+        "count": 1
+      }
+    },
+    {
+      "id": 11,
+      "title": "Plum Cake",
+      "price": 300,
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, distinctio.",
+      "category": "Cake",
+      "image": "https://media.istockphoto.com/id/1293840244/photo/top-view-rich-plum-nuts-cake.jpg?s=2048x2048&w=is&k=20&c=A0MVDheKDujbwvfI62M6q6rmZukSOwqqgZPoCuY9Gqs=",
+      "rating": {
+        "rate": 3.9,
+        "count": 1
+      }
+    },
+    {
+      "id": 12,
+      "title": "Rose Strawberry Cake",
+      "price": 250,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quam.",
+      "category": "Cake",
+      "image": "https://cdn.pixabay.com/photo/2017/05/23/22/33/birthday-2338813_1280.jpg",
+      "rating": {
+        "rate": 4.1,
+        "count": 1
+      }
+    },
+    {
+      "id": 13,
+      "title": "Red Velvet Cake",
+      "price": 350,
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo, consequuntur qui?",
+      "category": "Cake",
+      "image": "https://assets.giftalove.com/resources/common/giftimages/productimage2/tempting-red-velvet-cake.jpg",
+      "rating": {
+        "rate": 4.7,
+        "count": 1
+      }
+    },
+    {
+      "id": 14,
+      "title": "Rasmalai",
+      "price": 250,
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi, eius. Deserunt, sunt atque.",
+      "category": "Cake",
+      "image": "https://bakewithshivesh.com/wp-content/uploads/2021/04/IMG_3929-scaled.jpg",
+      "rating": {
+        "rate": 2.1,
+        "count": 1
+      }
+    },
+    {
+      "id": 15,
+      "title": "Pineapple Cake",
+      "price": 250,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo unde corrupti minima?",
+      "category": "Cake",
+      "image": "https://www.orderyourchoice.com/124946-large_default/pineapple-cake.jpg",
+      "rating": {
+        "rate": 4.6,
+        "count": 1
+      }
+    },
+    {
+      "id": 16,
+      "title": "Black Forest Cake",
+      "price": 250,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum quae molestias pariatur ipsam.",
+      "category": "Cake",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcxxb0E--d2bKmiQk4e-AlysSbQz9uY14x4g&s",
+      "rating": {
+        "rate": 3.9,
+        "count": 1
+      }
+    },
+    {
+      "id": 17,
+      "title": "White Forest",
+      "price": 250,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium repellat minus harum fugiat eum maxime!",
+      "category": "Cake",
+      "image": "https://www.shreemithai.com/cdn/shop/files/white-forest-cake-698072.jpg?v=1712414953&width=1200",
+      "rating": {
+        "rate": 3,
+        "count": 1
+      }
+    },
+    {
+      "id": 18,
+      "title": "Cheese Cake",
+      "price": 350,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, inventore hic nesciunt quaerat itaque similique",
+      "category": "Cake",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn9rX8sikddEQL1KeYly6vh49MlYvjbrFahw&s",
+      "rating": {
+        "rate": 1.9,
+        "count": 1
+      }
+    },
+    {
+      "id": 19,
+      "title": "Oreo Cake",
+      "price": 350,
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur sunt veniam adipisci. Sint, ut nobis.",
+      "category": "Cake",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv7xeWomEeRg9h6dCnyWWZHhpwvrVOWcWypQ&s",
+      "rating": {
+        "rate": 3.3,
+        "count": 1
+      }
+    },
+    {
+      "id": 20,
+      "title": "Choco Lava Cake",
+      "price": 250,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, accusamus amet provident quis aliquam voluptatem",
+      "category": "Cake",
+      "image": "https://images.getrecipekit.com/20250325120225-how-20to-20make-20chocolate-20molten-20lava-20cake-20in-20the-20microwave.png?width=650&quality=90&",
+      "rating": {
+        "rate": 2.9,
+        "count": 1
+      }
+    },
+    {
+      "id": 21,
+      "title": "chocolat sweets width cokies",
+      "price": 100.95,
+      "description": "sweets are a pure, simple pleasure, a moment of bliss that brightens any day.",
+      "category": "sweets",
+      "image": "https://media.istockphoto.com/id/1137312508/photo/assortment-of-products-with-high-sugar-level.jpg?s=1024x1024&w=is&k=20&c=31JIGszsx0mvGauCTxUED2epIbocfo4HIj3v9m_fjSQ=",
+      "rating": {
+        "rate": 2.9,
+        "count": 1
+      }
+    },
+    {
+      "id": 22,
+      "title": "delicious and famous Pakistani and Indian Sweets ",
+      "price": 150.3,
+      "description": "Sweets are a pure, simple pleasure, a moment of bliss that brightens any day. ",
+      "category": "sweets",
+      "image": "https://media.istockphoto.com/id/507796111/photo/pakistani-mithai-4.jpg?s=1024x1024&w=is&k=20&c=gCdGTaMr8CZkzwukdDKrs6GGjNKnXVqBHpeFTIvZwR4=",
+      "rating": {
+        "rate": 3.1,
+        "count": 1
+      }
+    },
+    {
+      "id": 23,
+      "title": "Mixed Indian Sweets on White Plate",
+      "price": 55.99,
+      "description": "Sweets are a pure, simple pleasure, a moment of bliss that brightens any day. ",
+      "category": "sweets",
+      "image": "https://media.istockphoto.com/id/598792196/photo/indian-sweets.jpg?s=1024x1024&w=is&k=20&c=sTXVK7LXwWpDH5cs-_u8y6mBpTvekAmtX017ZIvslgo=",
+      "rating": {
+        "rate": 4.7,
+        "count": 1
+      }
+    },
+    {
+      "id": 24,
+      "title": "Indian sweets in a plate includes Gulab Jamun, Rasgulla, kaju katli",
+      "price": 150.99,
+      "description": "Sweets are a pure, simple pleasure, a moment of bliss that brightens any day.",
+      "category": "sweets",
+      "image": "https://media.istockphoto.com/id/1054228718/photo/indian-sweets-in-a-plate-includes-gulab-jamun-rasgulla-kaju-katli-morichoor-bundi-laddu.jpg?s=1024x1024&w=is&k=20&c=zuHus6q049UchR1NkljCmCehsB-Ty8k_k_oO8J08y0E=",
+      "rating": {
+        "rate": 3.1,
+        "count": 1
+      }
+    },
+    {
+      "id": 25,
+      "title": "mithai very sweet",
+      "price": 130,
+      "description": "Sweets are a pure, simple pleasure, a moment of bliss that brightens any day. ",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyoCX2i6TT4TydjugO2emONGekyg0a14MJ4A&s",
+      "category": "sweets",
+      "rating": {
+        "rate": 4.1,
+        "count": 1
+      }
+    },
+    {
+      "id": 26,
+      "title": "lacknow sweets ",
+      "price": 168,
+      "description": "Sweets are a pure, simple pleasure, a moment of bliss that brightens any day. ",
+      "category": "sweets",
+      "image": "https://cdn.pixabay.com/photo/2021/06/02/17/16/shrikhand-6304996_1280.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 1
+      }
+    },
+    {
+      "id": 27,
+      "title": "Mithai, Dessert, Confectionery image. Free for use.",
+      "price": 208.99,
+      "description": "Sweets are a pure, simple pleasure, a moment of bliss that brightens any day. ",
+      "category": "sweets",
+      "image": "https://cdn.pixabay.com/photo/2023/08/30/08/38/mithai-8222859_1280.jpg",
+      "rating": {
+        "rate": 3,
+        "count": 1
+      }
+    },
+    {
+      "id": 28,
+      "title": "Cookie, Bake, Pastry image.",
+      "price": 180.65,
+      "description": "Sweets are a pure, simple pleasure, a moment of bliss that brightens any day. ",
+      "category": "sweets",
+      "image": "https://cdn.pixabay.com/photo/2015/05/07/15/08/cookie-756601_960_720.jpg",
+      "rating": {
+        "rate": 2.3,
+        "count": 1
+      }
+    },
+    {
+      "id": 29,
+      "title": "Desserts, Pastries, Shop image.  - USB 3.0 ",
+      "price": 164,
+      "description": "Sweets are a pure, simple pleasure, a moment of bliss that brightens any day. ",
+      "category": "sweets",
+      "image": "https://cdn.pixabay.com/photo/2016/11/29/07/45/desserts-1868181_960_720.jpg",
+      "rating": {
+        "rate": 3.3,
+        "count": 1
+      }
+    },
+    {
+      "id": 30,
+      "title": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
+      "price": 109,
+      "description": "Sweets are a pure, simple pleasure, a moment of bliss that brightens any day. ",
+      "category": "sweets",
+      "image": "https://cdn.pixabay.com/photo/2023/08/30/08/38/mithai-8222859_1280.jpg",
+      "rating": {
+        "rate": 2.9,
+        "count": 1
+      }
+    },
+    {
+      "id": 31,
+      "title": "Gingerbread house",
+      "price": 109,
+      "description": "A balanced diet is a cookie in each hand.",
+      "category": "Cookies",
+      "image": "https://cdn.pixabay.com/photo/2014/12/27/17/41/gingerbread-house-581300_1280.jpg",
+      "rating": {
+        "rate": 4.8,
+        "count": 1
+      }
+    },
+    {
+      "id": 32,
+      "title": "Christmas, Cookie",
+      "price": 114,
+      "description": "A balanced diet is a cookie in each hand.",
+      "category": "Cookies",
+      "image": "https://cdn.pixabay.com/photo/2017/12/10/18/58/christmas-cookies-3010597_1280.jpg",
+      "rating": {
+        "rate": 4.8,
+        "count": 1
+      }
+    },
+    {
+      "id": 33,
+      "title": "Christmas cookies",
+      "price": 599,
+      "description": "A balanced diet is a cookie in each hand.",
+      "category": "Cookies",
+      "image": "https://cdn.pixabay.com/photo/2016/11/28/10/27/christmas-cookies-1864668_1280.jpg",
+      "rating": {
+        "rate": 2.9,
+        "count": 1
+      }
+    },
+    {
+      "id": 34,
+      "title": "Gingerbread, ",
+      "price": 100,
+      "description": "A balanced diet is a cookie in each hand.",
+      "category": "Cookies",
+      "image": "https://cdn.pixabay.com/photo/2021/12/08/12/42/christmas-cookies-6855639_1280.jpg",
+      "rating": {
+        "rate": 2.2,
+        "count": 1
+      }
+    },
+    {
+      "id": 35,
+      "title": "Bear paws Cookie",
+      "price": 100,
+      "description": "A balanced diet is a cookie in each hand.",
+      "category": "Cookies",
+      "image": "https://cdn.pixabay.com/photo/2013/02/12/22/51/bear-paws-80914_1280.jpg",
+      "rating": {
+        "rate": 2.6,
+        "count": 1
+      }
+    },
+    {
+      "id": 36,
+      "title": "Christmas cookies",
+      "price": 150,
+      "description": "A balanced diet is a cookie in each hand.",
+      "category": "Cookies",
+      "image": "https://cdn.pixabay.com/photo/2016/10/17/07/36/cookie-1747112_1280.jpg",
+      "rating": {
+        "rate": 2.9,
+        "count": 1
+      }
+    },
+    {
+      "id": 37,
+      "title": "Pastries Christmas cookie",
+      "price": 159,
+      "description": "A balanced diet is a cookie in each hand.",
+      "category": "Cookies",
+      "image": "https://cdn.pixabay.com/photo/2019/11/25/17/06/pastries-4652546_1280.jpg",
+      "rating": {
+        "rate": 3.8,
+        "count": 1
+      }
+    },
+    {
+      "id": 38,
+      "title": "Christmas cookies",
+      "price": 200,
+      "description": "A balanced diet is a cookie in each hand.",
+      "category": "Cookies",
+      "image": "https://cdn.pixabay.com/photo/2015/11/27/17/21/cookie-1065893_1280.jpg",
+      "rating": {
+        "rate": 4.7,
+        "count": 1
+      }
+    },
+    {
+      "id": 39,
+      "title": "Christmas cookies",
+      "price": 100,
+      "description": "A balanced diet is a cookie in each hand.",
+      "category": "Cookies",
+      "image": "https://cdn.pixabay.com/photo/2013/12/22/02/41/christmas-cookies-232095_1280.jpg",
+      "rating": {
+        "rate": 4.5,
+        "count": 1
+      }
+    },
+    {
+      "id": 40,
+      "title": "TO Bake Gingerbread,",
+      "price": 100,
+      "description": "A balanced diet is a cookie in each hand.",
+      "category": "Cookies",
+      "image": "https://cdn.pixabay.com/photo/2020/02/21/22/22/bake-4868916_1280.jpg",
+      "rating": {
+        "rate": 3.6,
+        "count": 1
+      }
+    },
+    {
+      "id": 41,
+      "title": "Mix Season Fruit Cake",
+      "price": 350,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dicta vero. Unde nihil veritatis eos.",
+      "category": "Cake",
+      "image": "https://www.warmoven.in/cdn/shop/files/fruite-cake.jpg?v=1749833455&width=1080",
+      "rating": {
+        "rate": 4.8,
+        "count": 1
+      }
+    },
+    {
+      "id": 42,
+      "title": "Rainbow Cake",
+      "price": 300,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, odit rerum ipsa cumque amet nesciunt.",
+      "category": "Cake",
+      "image": "https://i.ytimg.com/vi/iU7WB2bVnic/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBZVzrkh85ULk2eHPVsMYoka9GOBg",
+      "rating": {
+        "rate": 4.8,
+        "count": 1
+      }
+    },
+    {
+      "id": 43,
+      "title": "Ferrero Rocher Cake",
+      "price": 500,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, odit rerum ipsa cumque amet nesciunt.",
+      "category": "Cake",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-Pp5lbXK3dvJMkl4PINT3HNG-NqJAvBz63A&s",
+      "rating": {
+        "rate": 2.9,
+        "count": 1
+      }
+    },
+    {
+      "id": 44,
+      "title": "Kit-Kat Cake ",
+      "price": 350,
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam repellendus numquam eaque fugit quod reiciendis?",
+      "category": "Cake",
+      "image": "https://dialacake.com/assets/images/products/04272023063411-20200820_150056.jpg",
+      "rating": {
+        "rate": 2.2,
+        "count": 1
+      }
+    },
+    {
+      "id": 45,
+      "title": "Mango Cake",
+      "price": 250,
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat adipisci eos, impedit porro voluptatum officiis",
+      "category": "Cake",
+      "image": "https://zhangcatherine.com/wp-content/uploads/2022/01/12001200-1.jpg",
+      "rating": {
+        "rate": 2.6,
+        "count": 1
+      }
+    },
+    {
+      "id": 46,
+      "title": "Butterscotch",
+      "price": 250,
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid facilis, vel mollitia qui distinctio incidunt",
+      "category": "Cake",
+      "image": "https://sahnibakery.com/cdn/shop/products/AppetizingButterscotchCake699.jpg?v=1609333737",
+      "rating": {
+        "rate": 2.9,
+        "count": 1
+      }
+    },
+    {
+      "id": 47,
+      "title": "Jelly Cake",
+      "price": 300,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut illum fugit eaque perspiciatis labore ipsum.",
+      "category": "Cake",
+      "image": "https://i.ytimg.com/vi/tnp5ZAE8hrs/maxresdefault.jpg",
+      "rating": {
+        "rate": 3.8,
+        "count": 1
+      }
+    },
+    {
+      "id": 48,
+      "title": "Blueberry Cake",
+      "price": 250,
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis ipsam minus voluptatum voluptatibus modi eligendi.",
+      "category": "Cake",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhN2s03SLMxYZ9En_9K_aedkzxk1qZRSpUvw&s",
+      "rating": {
+        "rate": 4.7,
+        "count": 1
+      }
+    },
+    {
+      "id": 49,
+      "title": "Mawa Cake",
+      "price": 250,
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus eum quos sit adipisci explicabo laudantium",
+      "category": "Cake",
+      "image": "https://vanillatrails.com/wp-content/uploads/2024/10/IMG_0280-2.jpg",
+      "rating": {
+        "rate": 4.5,
+        "count": 1
+      }
+    },
+    {
+      "id": 50,
+      "title": "Orange Cake",
+      "price": 250,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde natus dolorem dolores, et quisquam voluptates?",
+      "category": "Cake",
+      "image": "https://www.aberdeenskitchen.com/wp-content/uploads/2020/07/Orange-Cake-with-Zesty-Cream-Cheese-Frosting-FI-1.jpg",
+      "rating": {
+        "rate": 3.6,
+        "count": 1
+      }
+    },
+    {
+      "id": 51,
+      "title": "Jagodzianki, Pastries, Cakes image.  Performance Boost SATA III 2.5",
+      "price": 109,
+      "description": "Sweets are a pure, simple pleasure, a moment of bliss that brightens any day.",
+      "category": "sweets",
+      "image": "https://cdn.pixabay.com/photo/2019/08/15/14/30/jagodzianki-4408179_960_720.jpg",
+      "rating": {
+        "rate": 4.8,
+        "count": 1
+      }
+    },
+    {
+      "id": 52,
+      "title": "Cake balls, Free background, Cool backgrounds image External Hard Drive",
+      "price": 114,
+      "description": "Sweets are a pure, simple pleasure, a moment of bliss that brightens any day. ",
+      "category": "sweets",
+      "image": "https://cdn.pixabay.com/photo/2019/04/19/17/48/cake-balls-4139982_960_720.jpg",
+      "rating": {
+        "rate": 3.2,
+        "count": 1
+      }
+    },
+    {
+      "id": 53,
+      "title": "Cake pops, Pastries, Food image IPS Ultra-Thin",
+      "price": 340,
+      "description": "Sweets are a pure, simple pleasure, a moment of bliss that brightens any day. ",
+      "category": "sweets",
+      "image": "https://cdn.pixabay.com/photo/2015/03/26/23/09/cake-pops-693645_1280.jpg",
+      "rating": {
+        "rate": 2.9,
+        "count": 1
+      }
+    },
+    {
+      "id": 54,
+      "title": "Dessert, Sweet, Food image. Super Ultrawide Screen QLED ",
+      "price": 289.99,
+      "description": "Sweets are a pure, simple pleasure, a moment of bliss that brightens any day.",
+      "category": "sweets",
+      "image": "https://cdn.pixabay.com/photo/2022/10/09/00/17/dessert-7507949_1280.jpg",
+      "rating": {
+        "rate": 2.8,
+        "count": 1
+      }
+    },
+    {
+      "id": 55,
+      "title": "White chocolate, Chocolate, Food image.",
+      "price": 56.99,
+      "description": "Sweets are a pure, simple pleasure, a moment of bliss that brightens any day. ",
+      "category": "sweets",
+      "image": "https://cdn.pixabay.com/photo/2014/06/30/20/05/white-chocolate-380702_1280.jpg",
+      "rating": {
+        "rate": 2.6,
+        "count": 1
+      }
+    },
+    {
+      "id": 56,
+      "title": "Dessert, Treat, Snack image. sweet and delicies",
+      "price": 290.95,
+      "description": "Sweets are a pure, simple pleasure, a moment of bliss that brightens any day. ",
+      "category": "sweets",
+      "image": "https://cdn.pixabay.com/photo/2020/12/04/19/24/dessert-5804153_960_720.jpg",
+      "rating": {
+        "rate": 2.9,
+        "count": 1
+      }
+    },
+    {
+      "id": 57,
+      "title": "Chocolate, White, Sweets image",
+      "price": 139.99,
+      "description": "Sweets are a pure, simple pleasure, a moment of bliss that brightens any day. ",
+      "category": "sweets",
+      "image": "https://cdn.pixabay.com/photo/2015/01/13/13/19/chocolate-598174_1280.jpg",
+      "rating": {
+        "rate": 3.8,
+        "count": 1
+      }
+    },
+    {
+      "id": 58,
+      "title": "Crunchy moong dal fritters, Ram laddu, ",
+      "price": 269.85,
+      "description": "Sweets are a pure, simple pleasure, a moment of bliss that brightens any day. ",
+      "category": "sweets",
+      "image": "https://cdn.pixabay.com/photo/2017/10/02/06/57/crunchy-moong-dal-fritters-2808043_1280.jpg",
+      "rating": {
+        "rate": 4.7,
+        "count": 1
+      }
+    },
+    {
+      "id": 59,
+      "title": "Pretzels, Baked goods, sweet Food ",
+      "price": 117.95,
+      "description": "Sweets are a pure, simple pleasure, a moment of bliss that brightens any day. ",
+      "category": "sweets",
+      "image": "https://cdn.pixabay.com/photo/2016/07/01/19/43/pretzels-1491789_960_720.jpg",
+      "rating": {
+        "rate": 3.5,
+        "count": 1
+      }
+    },
+    {
+      "id": 60,
+      "title": "Bun, Sesame, Baked good sweets",
+      "price": 212.99,
+      "description": "Sweets are a pure, simple pleasure, a moment of bliss that brightens any day. ",
+      "category": "sweets",
+      "image": "https://cdn.pixabay.com/photo/2023/12/13/17/54/bun-8447394_960_720.jpg",
+      "rating": {
+        "rate": 2.6,
+        "count": 1
+      }
+    },
+    {
+      "id": 61,
+      "title": "Advent cookie,",
+      "price": 200,
+      "description": "A balanced diet is a cookie in each hand.",
+      "category": "Cookies",
+      "image": "https://cdn.pixabay.com/photo/2016/12/06/16/13/advent-1886826_1280.jpg",
+      "rating": {
+        "rate": 3.6,
+        "count": 1
+      }
+    },
+    {
+      "id": 62,
+      "title": "Cookie Christmas",
+      "price": 100,
+      "description": "A balanced diet is a cookie in each hand.",
+      "category": "Cookies",
+      "image": "https://cdn.pixabay.com/photo/2016/01/07/10/23/cookie-1125527_1280.jpg",
+      "rating": {
+        "rate": 3.6,
+        "count": 1
+      }
+    },
+    {
+      "id": 63,
+      "title": "Candies cookie,",
+      "price": 100,
+      "description": "A balanced diet is a cookie in each hand.",
+      "category": "Cookies",
+      "image": "https://cdn.pixabay.com/photo/2021/11/07/16/22/candies-6777038_1280.jpg",
+      "rating": {
+        "rate": 3.6,
+        "count": 1
+      }
+    },
+    {
+      "id": 64,
+      "title": "Blueberries cookie",
+      "price": 300,
+      "description": "A balanced diet is a cookie in each hand.",
+      "category": "Cookies",
+      "image": "https://cdn.pixabay.com/photo/2016/11/18/15/40/cookies-1835414_1280.jpg",
+      "rating": {
+        "rate": 3.6,
+        "count": 1
+      }
+    },
+    {
+      "id": 65,
+      "title": "Cookie Bake Meal",
+      "price": 160,
+      "description": "A balanced diet is a cookie in each hand.",
+      "category": "Cookies",
+      "image": "https://cdn.pixabay.com/photo/2016/02/10/14/23/cookies-1191777_1280.jpg",
+      "rating": {
+        "rate": 3.6,
+        "count": 1
+      }
+    },
+    {
+      "id": 66,
+      "title": "Cookie Bake Pastry",
+      "price": 100,
+      "description": "A balanced diet is a cookie in each hand.",
+      "category": "Cookies",
+      "image": "https://cdn.pixabay.com/photo/2015/05/07/15/08/cookie-756601_1280.jpg",
+      "rating": {
+        "rate": 3.6,
+        "count": 1
+      }
+    },
+    {
+      "id": 67,
+      "title": "Black Cookies,",
+      "price": 300,
+      "description": "A balanced diet is a cookie in each hand.",
+      "category": "Cookies",
+      "image": "https://cdn.pixabay.com/photo/2023/01/25/08/10/cookies-7742749_1280.jpg",
+      "rating": {
+        "rate": 3.6,
+        "count": 1
+      }
+    },
+    {
+      "id": 68,
+      "title": "Cookie Christmas",
+      "price": 150,
+      "description": "A balanced diet is a cookie in each hand.",
+      "category": "Cookies",
+      "image": "https://cdn.pixabay.com/photo/2016/11/28/09/56/cookie-1864642_1280.jpg",
+      "rating": {
+        "rate": 3.6,
+        "count": 1
+      }
+    },
+    {
+      "id": 69,
+      "title": "Wedding Cookies",
+      "price": 800,
+      "description": "A balanced diet is a cookie in each hand.",
+      "category": "Cookies",
+      "image": "https://cdn.pixabay.com/photo/2022/02/15/15/38/cookies-7015170_1280.jpg",
+      "rating": {
+        "rate": 3.6,
+        "count": 1
+      }
+    },
+    {
+      "id": 70,
+      "title": "Joker Fun Cookie,",
+      "price": 500,
+      "description": "A balanced diet is a cookie in each hand.",
+      "category": "Cookies",
+      "image": "https://cdn.pixabay.com/photo/2018/01/29/00/26/joker-3114977_1280.jpg",
+      "rating": {
+        "rate": 3.6,
+        "count": 1
+      }
+    },
+    {
+      "id": 71,
+      "title": "Wine Cake",
+      "price": 300,
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo maxime eius deleniti vitae neque natus?",
+      "category": "Cake",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ04adofB0VyCkKrDPQ3PH_mwv-oR2tq7hOeQ&s",
+      "rating": {
+        "rate": 3.6,
+        "count": 1
+      }
+    },
+    {
+      "id": 72,
+      "title": "Mirror Cake",
+      "price": 350,
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil aliquam eaque tempora odio cupiditate atque?",
+      "category": "Cake",
+      "image": "https://res.cloudinary.com/hksqkdlah/image/upload/ar_1:1,c_fill,dpr_2.0,f_auto,fl_lossy.progressive.strip_profile,g_faces:auto,q_auto:low,w_344/v1/ATK%20Kids/Kids%20recipes/%5EComplete_Science_Book/Mirror_Cake_2.0/SFS_Mirror_Cake_Cover6461",
+      "rating": {
+        "rate": 3.6,
+        "count": 1
+      }
+    },
+    {
+      "id": 73,
+      "title": "Raspberry",
+      "price": 250,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit odio necessitatibus ipsam, quas blanditiis perferendis?",
+      "category": "Cake",
+      "image": "https://tatyanaseverydayfood.com/wp-content/uploads/2021/01/Chocolate-Raspberry-Cake-Recipe-3.jpg",
+      "rating": {
+        "rate": 3.6,
+        "count": 1
+      }
+    },
+    {
+      "id": 74,
+      "title": "Blue Velvet Cake",
+      "price": 350,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga fugiat quasi, veritatis accusantium veniam vel!",
+      "category": "Cake",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_YV0n3Xse240naBv69u3bymIERpv69COHEA&s",
+      "rating": {
+        "rate": 3.6,
+        "count": 1
+      }
+    },
+    {
+      "id": 75,
+      "title": "Pinata Cake",
+      "price": 400,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, corporis ex quisquam accusantium deserunt eveniet.",
+      "category": "Cake",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWyobI7sPHaN7Vgo5QAROuXuTty6faTDL8qA&s",
+      "rating": {
+        "rate": 3.6,
+        "count": 1
+      }
+    },
+    {
+      "id": 76,
+      "title": "Ice-Cream Sandwich Cake",
+      "price": 350,
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam dolorum voluptatem architecto nostrum? Accusamus, pariatur?",
+      "category": "Cake",
+      "image": "https://www.theseasonedmom.com/wp-content/uploads/2022/06/ice-cream-sandwich-cake-6-1024x1536.jpg",
+      "rating": {
+        "rate": 3.6,
+        "count": 1
+      }
+    },
+    {
+      "id": 77,
+      "title": "Black Current Cake",
+      "price": 250,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, asperiores accusantium voluptatum alias assumenda labore.",
+      "category": "Cake",
+      "image": "https://assets.winni.in/c_limit,dpr_1,fl_progressive,q_80,w_1000/33659_black-currant-cake.jpeg",
+      "rating": {
+        "rate": 3.6,
+        "count": 1
+      }
+    },
+    {
+      "id": 78,
+      "title": "Choco Vanilla Cake",
+      "price": 300,
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis praesentium iure deleniti debitis aliquam illum!",
+      "category": "Cake",
+      "image": "https://assets.oyegifts.com/flowers-n-gifts/vendordata/product/choco-vanilla-cake0006chva-AAA.jpg",
+      "rating": {
+        "rate": 3.6,
+        "count": 1
+      }
+    },
+    {
+      "id": 79,
+      "title": "Kiwi Cake",
+      "price": 250,
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi aliquam, minus doloremque reiciendis voluptates dolorum.",
+      "category": "Cake",
+      "image": "https://assets.winni.in/c_limit,dpr_1,fl_progressive,q_80,w_1000/31455_lovely-kiwi-cake.jpeg",
+      "rating": {
+        "rate": 3.6,
+        "count": 1
+      }
+    },
+    {
+      "id": 80,
+      "title": "Lemon Cake",
+      "price": 250,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, quod velit suscipit mollitia esse error.",
+      "category": "Cake",
+      "image": "https://abrightmoment.com/wp-content/uploads/2025/06/1-Lemon-Chantilly-Cake-@brightmomentco-copy.jpg",
+      "rating": {
+        "rate": 3.6,
+        "count": 1
+      }
+    },
+    {
+      "id": 81,
+      "title": "Bun, Salt bar, Kaiser roll sweets",
+      "price": 214.3,
+      "description": "Sweets are a pure, simple pleasure, a moment of bliss that brightens any day.",
+      "category": "sweets",
+      "image": "https://cdn.pixabay.com/photo/2017/07/26/23/14/roll-2543510_960_720.jpg",
+      "rating": {
+        "rate": 1.6,
+        "count": 1
+      }
+    },
+    {
+      "id": 82,
+      "title": "Chocolate, Chocolate truffles, Chocolate praline ",
+      "price": 12.49,
+      "description": "Sweets are a pure, simple pleasure, a moment of bliss that brightens any day. ",
+      "category": "sweets",
+      "image": "https://cdn.pixabay.com/photo/2023/12/18/11/05/chocolate-8455786_960_720.jpg",
+      "rating": {
+        "rate": 4.6,
+        "count": 1
+      }
+    },
+    {
+      "id": 83,
+      "title": "With a bun, Cream bun, Bun sweets",
+      "price": 138.69,
+      "description": "Sweets are a pure, simple pleasure, a moment of bliss that brightens any day. ",
+      "category": "sweets",
+      "image": "https://cdn.pixabay.com/photo/2018/02/12/11/55/shrove-buns-3148128_1280.jpg",
+      "rating": {
+        "rate": 1.8,
+        "count": 1
+      }
+    },
+    {
+      "id": 84,
+      "title": "Hanamaki, Steamed bun, Steamed stuffed bun sweets",
+      "price": 273.29,
+      "description": "Sweets are a pure, simple pleasure, a moment of bliss that brightens any day. ",
+      "category": "sweets",
+      "image": "https://cdn.pixabay.com/photo/2019/07/31/01/44/hanamaki-4374136_1280.jpg",
+      "rating": {
+        "rate": 4.3,
+        "count": 1
+      }
+    },
+    {
+      "id": 85,
+      "title": "Wonton, Baozi, Chinese bun sweets",
+      "price": 197.39,
+      "description": "Sweets are a pure, simple pleasure, a moment of bliss that brightens any day. ",
+      "category": "sweets",
+      "image": "https://cdn.pixabay.com/photo/2013/08/01/18/36/wonton-169291_1280.jpg",
+      "rating": {
+        "rate": 4.1,
+        "count": 1
+      }
+    },
+    {
+      "id": 86,
+      "title": "Loaf, Bakery, Preparation sweets",
+      "price": 302.16,
+      "description": "Sweets are a pure, simple pleasure, a moment of bliss that brightens any day. ",
+      "category": "sweets",
+      "image": "https://cdn.pixabay.com/photo/2017/06/23/23/57/bread-2436370_1280.jpg",
+      "rating": {
+        "rate": 2.1,
+        "count": 1
+      }
+    },
+    {
+      "id": 87,
+      "title": "Bread, Buns, Baked sweets",
+      "price": 290.49,
+      "description": "Sweets are a pure, simple pleasure, a moment of bliss that brightens any day. ",
+      "category": "sweets",
+      "image": "https://cdn.pixabay.com/photo/2018/06/10/20/30/bread-3467243_960_720.jpg",
+      "rating": {
+        "rate": 3.1,
+        "count": 1
+      }
+    },
+    {
+      "id": 88,
+      "title": "Colorful, Candies, Sweets",
+      "price": 301.99,
+      "description": "Sweets are a pure, simple pleasure, a moment of bliss that brightens any day. ",
+      "category": "sweets",
+      "image": "https://cdn.pixabay.com/photo/2016/03/27/22/08/colorful-1284475_1280.jpg",
+      "rating": {
+        "rate": 2.2,
+        "count": 1
+      }
+    },
+    {
+      "id": 89,
+      "title": "Candies, Chocolate, Dessert sweets",
+      "price": 321.72,
+      "description": "Sweets are a pure, simple pleasure, a moment of bliss that brightens any day. ",
+      "category": "sweets",
+      "image": "https://cdn.pixabay.com/photo/2016/11/23/14/42/candies-1853287_1280.jpg",
+      "rating": {
+        "rate": 4.4,
+        "count": 1
+      }
+    },
+    {
+      "id": 90,
+      "title": "Dessert, Treat, Snack sweets",
+      "price": 284.16,
+      "description": "Sweets are a pure, simple pleasure, a moment of bliss that brightens any day. ",
+      "category": "sweets",
+      "image": "https://cdn.pixabay.com/photo/2020/12/04/19/24/dessert-5804153_1280.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 1
+      }
+    },
+    {
+      "id": 91,
+      "title": "Regues Cookie",
+      "price": 100,
+      "description": "A balanced diet is a cookie in each hand.",
+      "category": "Cookies",
+      "image": "https://cdn.pixabay.com/photo/2016/11/02/16/46/rogues-1792221_1280.jpg",
+      "rating": {
+        "rate": 3.6,
+        "count": 1
+      }
+    },
+    {
+      "id": 92,
+      "title": "Cookie, Christmas",
+      "price": 500,
+      "description": "A balanced diet is a cookie in each hand.",
+      "category": "Cookies",
+      "image": "https://cdn.pixabay.com/photo/2016/11/28/10/40/cookie-1864704_1280.jpg",
+      "rating": {
+        "rate": 3.6,
+        "count": 1
+      }
+    },
+    {
+      "id": 93,
+      "title": "Bread Cookie",
+      "price": 900,
+      "description": "A balanced diet is a cookie in each hand.",
+      "category": "Cookies",
+      "image": "https://cdn.pixabay.com/photo/2017/03/12/03/07/baking-2136359_1280.jpg",
+      "rating": {
+        "rate": 3.6,
+        "count": 1
+      }
+    },
+    {
+      "id": 94,
+      "title": "Fourth Cookie",
+      "price": 100,
+      "description": "A balanced diet is a cookie in each hand.",
+      "category": "Cookies",
+      "image": "https://cdn.pixabay.com/photo/2024/06/30/14/46/cookies-8863339_1280.jpg",
+      "rating": {
+        "rate": 3.6,
+        "count": 1
+      }
+    },
+    {
+      "id": 95,
+      "title": "Cookies Hearts Treat",
+      "price": 190,
+      "description": "A balanced diet is a cookie in each hand.",
+      "category": "Cookies",
+      "image": "https://cdn.pixabay.com/photo/2021/02/13/16/34/cookies-6012079_1280.jpg",
+      "rating": {
+        "rate": 3.6,
+        "count": 1
+      }
+    },
+    {
+      "id": 96,
+      "title": "Donut Cake",
+      "price": 300,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptas eaque laudantium aliquid tempora quae.",
+      "category": "Cake",
+      "image": "https://thebakermama.com/wp-content/uploads/2020/12/Birthday-Donut-Cake-1152x1536.jpeg",
+      "rating": {
+        "rate": 3.6,
+        "count": 1
+      }
+    },
+    {
+      "id": 97,
+      "title": "Carrot Cake",
+      "price": 350,
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non aliquid quia voluptatem nemo, officia voluptates.",
+      "category": "Cake",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDx2kB-cQgI_gdVUSUWDBuBV8KCj756qlBdQ&s",
+      "rating": {
+        "rate": 3.6,
+        "count": 1
+      }
+    },
+    {
+      "id": 98,
+      "title": "Chocolate Truffle",
+      "price": 300,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi vero, rem itaque aut quod ratione.",
+      "category": "Cake",
+      "image": "https://www.fnp.com/images/pr/l/v20240909174707/velvety-chocolate-truffle-cake-2kg_1.jpg",
+      "rating": {
+        "rate": 3.6,
+        "count": 1
+      }
+    },
+    {
+      "id": 99,
+      "title": "Almond Cake",
+      "price": 300,
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam ex perspiciatis nesciunt rem soluta dolorem?",
+      "category": "Cake",
+      "image": "https://www.sugarhero.com/wp-content/uploads/2013/04/burnt-almond-cake-1-featured-image.jpg",
+      "rating": {
+        "rate": 3.6,
+        "count": 1
+      }
+    },
+    {
+      "id": 100,
+      "title": "Honey Cake",
+      "price": 350,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sit libero facilis consequuntur ipsam quia!",
+      "category": "Cake",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNo2tURxobZ7C6dv2gtJ81BXEoBXVQrbO-PA&s",
+      "rating": {
+        "rate": 3.6,
+        "count": 1
+      }
+    },
+    {
+      "id": 101,
+      "title": "Cupcakes, Chocolate, Dark sweets",
+      "price": 467.06,
+      "description": "Sweets are a pure, simple pleasure, a moment of bliss that brightens any day. ",
+      "category": "sweets",
+      "image": "https://cdn.pixabay.com/photo/2016/06/12/15/03/cupcakes-1452178_1280.jpg",
+      "rating": {
+        "rate": 3.2,
+        "count": 1
+      }
+    },
+    {
+      "id": 102,
+      "title": "Candy, Colors, Sweet ",
+      "price": 317,
+      "description": "Sweets are a pure, simple pleasure, a moment of bliss that brightens any day. .",
+      "category": "sweets",
+      "image": "https://cdn.pixabay.com/photo/2015/09/18/20/55/candy-946392_960_720.jpg",
+      "rating": {
+        "rate": 2.7,
+        "count": 1
+      }
+    },
+    {
+      "id": 103,
+      "title": "Candies, Sweets, Food ",
+      "price": 289.99,
+      "description": "Sweets are a pure, simple pleasure, a moment of bliss that brightens any day. ",
+      "category": "sweets",
+      "image": "https://cdn.pixabay.com/photo/2013/03/15/09/13/candies-93988_1280.jpg",
+      "rating": {
+        "rate": 4.5,
+        "count": 1
+      }
+    },
+    {
+      "id": 104,
+      "title": "Sweet, Baklava, Food delicious",
+      "price": 158.49,
+      "description": "Sweets are a pure, simple pleasure, a moment of bliss that brightens any day. ",
+      "category": "sweets",
+      "image": "https://cdn.pixabay.com/photo/2017/08/12/17/13/sweet-2634742_1280.jpg",
+      "rating": {
+        "rate": 4.9,
+        "count": 1
+      }
+    },
+    {
+      "id": 105,
+      "title": "Sweet, Turkish delight, Turkey delicious",
+      "price": 371.29,
+      "description": "Sweets are a pure, simple pleasure, a moment of bliss that brightens any day. ",
+      "category": "sweets",
+      "image": "https://cdn.pixabay.com/photo/2019/09/26/13/45/sweet-4506016_960_720.jpg",
+      "rating": {
+        "rate": 4.4,
+        "count": 1
+      }
+    }
+  ]
+}

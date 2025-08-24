@@ -1,0 +1,25 @@
+{
+  "name": "bakery_shope",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yadav-khushi293/Bakery_shope.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yadav-khushi293/Bakery_shope/issues"
+  },
+  "homepage": "https://github.com/yadav-khushi293/Bakery_shope#readme",
+  "description": "",
+  "dependencies": {
+    "json-server": "^0.17.4",
+    "json-server-auth": "^2.1.0",
+     "start": "nodemon server.js"
+  }
+}
