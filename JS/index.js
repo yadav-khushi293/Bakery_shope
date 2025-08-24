@@ -218,8 +218,8 @@ decrementBtn.addEventListener("click", () => {
 });
 
 //Day-Night-mode-code
-  let body = document.querySelector("body");
-      let btn = document.querySelector(".btn");
-      btn.onclick = function () {
-        body.classList.toggle("light");
-  };
+   const body = document.body;
+      const btn = document.getElementById("toggleBtn");
+      btn.addEventListener("click", () => {
+        body.classList.toggle("dark");
+});
