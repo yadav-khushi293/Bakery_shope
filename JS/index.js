@@ -46,15 +46,15 @@ const renderTheUI = (value) => {
     const card = document.createElement("div");
     card.classList.add("card_div");
     card.innerHTML = `
-            <img class="image" src=${el.image} />
-            <div class="info">
+            <div class="info" onclick="showModal(${el.id})">
+                <img class="image" src=${el.image} />
                 <h3 class="id">id : ${el.id}</h3>
                 <p class="category">category : ${el.category}</p>
                 <p class="price">price : ${el.price}</p>
                 <div class="rating">
                     <p>rate : ${el.rating.rate}</p>
-                    </div>
-                    <button onclick="addToCart(${el.id})" class="btns">add</button>
+                </div>
+                <button onclick="addToCart(${el.id})" class="btns">add</button>
             </div>
         `;
     container.appendChild(card);
@@ -223,3 +223,26 @@ decrementBtn.addEventListener("click", () => {
       btn.addEventListener("click", () => {
         body.classList.toggle("dark");
 });
+
+//Show Pop Up
+// function showModal() {
+//   console.log("Pop UP");
+//   alert("Pop Up Shown ✔");
+// }
+const showModal = async (id) => {
+  
+  let pid = allProducts.find((el) => el.id === id);
+
+  try {
+    // check if product already exists in cart
+    let res = await fetch(`${apiProducts}?id=${id}`);
+    let data = await res.json();
+    console.log("Pop UP");
+    console.log(data[0]);
+    alert("Pop Up Shown ✔"+data[0].id+" "+data[0].category+" "+data[0].price);
+    window.open("payment.html");
+  } catch (error) {
+    console.log("🚀 ~ error:", error);
+  }
+  
+}
