@@ -23,8 +23,9 @@ body{
 .sidebar{
     height: 90vh;
     background-color:#2a2a2a;
-    border: 1px solid #3a3a3a;
+    border: 3px solid   #FFBF00;
     border-radius: 16px;
+    box-shadow: 0 0 10px #FFBF00;
     padding: 40px;
     position: sticky;
     top: 40px;
@@ -32,7 +33,9 @@ body{
 
 .main-content{
     background-color:#2a2a2a;
-    border: 1px solid #3a3a3a;
+    border: 3px solid  #FFBF00;
+
+       box-shadow: 0 0 10px #FFBF00;
     border-radius: 16px;
     padding: 40px;
 }
@@ -46,10 +49,11 @@ body{
 
 
 .profile img{
-    height: 120px;
-    width: 120px;
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
-    border: 1px solid #3a3a3a;
+    border: 3px solid #FFBF00;;    
+    box-shadow: 0 0 30px #FFBF00;
 }
 
 .profile h2{
@@ -63,13 +67,17 @@ body{
     background-color: #1e1e1e;
     padding: 5px 15px;
     color: #FFBF00;
-    border: 1px solid #3a3a3a;
+    border: 3px solid #FFBF00;
+    box-shadow: 0 0 5px #FFBF00;
     font-size: 0.8rem;
     border-radius: 8px;
     display: inline-block;
     margin-top: 10px;
 }
-
+.profile p:hover{
+    transform: scale(1.1);
+    transition: all ease-in 0.4s;
+}
 
 
 /* contact information */
@@ -123,9 +131,12 @@ body{
 
 
 #navigation{
-    border-bottom: 2px solid #3a3a3a;
+    border-bottom: 3px solid  #FFBF00;
     margin-bottom: 20px;
     padding-bottom: 20px;
+}
+html {
+    scroll-behavior: smooth;
 }
 
 nav{
@@ -182,7 +193,8 @@ nav a{
 .item{
     padding: 20px;
     border-radius: 10px;
-    border: 2px solid #3a3a3a;
+    border: 3px solid  #FFBF00; 
+    box-shadow: 0 0 5px #FFBF00;
     background-color: #1e1e1e;
     text-align: center;
     margin-top: 20px;
@@ -292,7 +304,7 @@ nav a{
 .project img{
     height: 180px;
     width: 100%;
-    object-fit: cover;
+    object-fit: fill;
 }
 
 .card{
