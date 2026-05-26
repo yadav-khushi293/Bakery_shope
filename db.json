@@ -102,7 +102,7 @@
       "image": "https://cdn.pixabay.com/photo/2017/05/23/22/33/birthday-2338813_1280.jpg",
       "rating": {
         "rate": 4.1,
-        "count": 1
+        "count": 1 <div className="child2"></div>
       },
       "quantity": 1,
       "count": 1
@@ -1416,5 +1416,7 @@
         "count": 1
       }
     }
+     
+    
   ]
 }
